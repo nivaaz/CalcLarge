@@ -1,0 +1,147 @@
+/*GLOBAL*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/*Header*/
+header{
+    margin: auto;
+    text-align: center;
+}
+
+/**PARTITION**/
+body {
+    background: linear-gradient( -45deg,white, whitesmoke);
+}
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    padding: 50px;
+    background: linear-gradient(-45deg, #52b760, #3da24b);
+}
+header .title {
+    color: white;
+}
+.partContainer{
+    text-align: center;
+    margin:auto;
+    height: 100%;
+    padding-top:50px;
+
+}
+.partition {
+    vertical-align: middle;
+    margin:auto;
+    width: 45%;
+    height: 100%;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+}
+#left {
+    display: inline-block;
+}
+#right {
+    display: inline-block;
+}
+.addsubject {
+    margin: 1%
+    padding:1%;
+}
+.addedSubject {
+    background : #52b760;
+    color : white;
+    margin:auto;
+    font-size: 200%;
+    padding: 5px;
+    border-radius: 20px;
+    width: 50%;
+    display:inline-block;
+}
+select {
+    padding: 1%;
+    padding-left: 15px;
+    border:hidden;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    background-color: #52b760;
+}
+input {
+    padding: 1%;
+    width: 20%;
+    padding-left: 15px;
+    border:hidden;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    background-color: #52b760;
+   }
+
+button {
+    margin: 25px;
+    border:hidden;
+    border-radius: 100%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    background: #99e265;
+}
+.remove {
+  background:#FF6666;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.estimate {
+    background: linear-gradient( #FF6644, #FF6666);
+    padding: 15px;
+    border-radius: 15px;
+}
+.add {
+    background: #3da24b;
+    vertical-align: middle;
+}
+.ATAR {
+    display: inline-block;
+    padding:1%;
+}
+.ATAR h1 {
+    color: black;
+    font-size: 300%;
+}
+.ATAR #estimated {
+       border-style: solid;
+    border-color: #52b760;    
+    border-radius: 50px;
+}
+
+.ad {
+    border-style: solid;
+    border-color: #52b760;
+    color: darkslategrey;
+    border-radius: 50px;
+    margin: 5%;
+}
+.information {
+    margin:auto;
+    color: #ecf0f1;
+}
+.title {
+    display:block;
+    font-size: 200%;
+}
+
+/*FOOTER*/
+footer{
+    height: 100%;   ;
+    padding: 20px;
+    background: linear-gradient( 42deg,white, whitesmoke);
+    color:  #95a5a6;
+    vertical-align: middle;
+    text-align: center;
+}

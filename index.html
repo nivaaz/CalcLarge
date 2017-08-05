@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+         <link rel="stylesheet" href="style.css" type="text/css" media="all">
+        <script src="script.js" ></script>
+        <title> ATAR CALCULATOR </title>
+    </head>
+<!---BODY-->
+    <body>
+        <header> 
+            <h1 class = "title"> ATAR CALCULATOR</h1>
+            <h3  class = "information"> Check out Art of Smart's newest goal setting tool, the ATAR Calculator!</h3>
+            <h3  class = "information"> Print out your goal in the end  & stick it in your wall</h3>
+        </header>
+    
+    <div class = "partContainer">
+        
+        <div class = "partition" id = "left">
+        <h1 class = "title"> Select your subject & mark</h1> 
+            <div class = "addSuject">
+                <select id="english">
+                    <option value="std"> Standard English</option>
+                    <option value="Adv"> Advanced English</option>
+                    <option value="ESL"> ESL </option>
+                </select>
+                <input type="number" id="unitsMark" step="0.5">
+            </div>
+
+            <div class = "buttonContainer">
+                <button class = "estimate"> Add subject </button>
+            </div>
+
+            <div class = "ad">
+                    <h3> Check out our articles on how to get a band 6 </h3>    
+            </div>  
+            
+        </div>
+
+        <div class = "partition" id = "right">
+            <div class = "subjectsAddedContainer">
+                <h1 class = "title"> Subjects Added </h1> 
+              <div>
+                <h1 class = "addedSubject"> Advanced English </h1> <button class = "remove"> x </button>
+               </div>
+            <div>
+                <h1 class = "addedSubject"> Extension 1 English </h1> <button class = "remove"> x </button>
+               </div>
+            <div>
+                <h1 class = "addedSubject"> Extension 2 English </h1> <button class = "remove"> x </button>
+               </div>
+            <div>
+                <h1 class = "addedSubject"> Physics </h1> <button class = "remove"> x </button>
+               </div>
+            </div>    
+
+            <div class= "info">
+                <h2> You need to add 2 units </h2>
+            </div>
+            <div class = "buttonContainer">
+                <button class = "estimate"> Estimate ATAR</button>
+            </div>
+     </div>
+
+     <div class = "ATAR">
+        <div> 
+        <h1 class = "title"> Estimated ATAR: </h1>
+          <h1 id = "estimated"> 85.95 <h1>
+        </div>
+        <div>
+            <button class = "estimate"> What is an ATAR </button>
+             <button class = "estimate"> Download </button>
+              <button class = "estimate"> More on goal setting </button>
+        </div>
+    </div>
+    </div>
+    </body>    
+        <footer >
+            <p> Contact us </p>
+            <p> info@artofsmart.com.au </p>
+            <p> Facebook </p>
+            </footer>
+    
+    
+</html>
