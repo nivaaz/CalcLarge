@@ -10,138 +10,114 @@ header{
     margin: auto;
     text-align: center;
 }
-
-/**PARTITION**/
+/*BODY*/
 body {
-    background: linear-gradient( -45deg,white, whitesmoke);
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
 }
-h1, h2, h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+/*ATAR CONTAINER*/
+.atarContainer{
+ display: block;
+ text-align: center;
+ width: 900px;
+ margin:auto; /*center align*/
 }
-header{
-    padding: 50px;
-    background: linear-gradient(-45deg, #52b760, #3da24b);
+.titleContainer{
+    text-align: left;
+    display: block;
+    width:440px;
+    margin-left:380px;
 }
-header .title {
-    color: white;
-}
-.partContainer{
+.markTitle{
+    display: inline-block;
     text-align: center;
-    margin:auto;
-    height: 100%;
-    padding-top:50px;
+    margin-left:57px;
+    width: 50px;
+}
+.atarEstimate{
+    display: inline-block;
+    padding:20px;
+    color: #52b760;
+    font-size: 50px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 20px;
+}
+.atarGenerator{
+    display: block;
+    text-align: center;
+}
 
+/*SUBJECT*/
+.subjectContainer {
+    padding: 0px;
+    position: relative;
+    align-self: center;
 }
-.partition {
-    vertical-align: middle;
-    margin:auto;
-    width: 45%;
-    height: 100%;
-    border-radius: 5%;
+.selectContainer{
+  /*border-style: dashed;   
+    border-color: magenta; */
     display: inline-block;
-    text-align: center;
-}
-#left {
-    display: inline-block;
-}
-#right {
-    display: inline-block;
-}
-.addsubject {
-    margin: 1%
-    padding:1%;
-}
-.addedSubject {
-    background : #52b760;
-    color : white;
-    margin:auto;
-    font-size: 200%;
-    padding: 5px;
-    border-radius: 20px;
-    width: 50%;
-    display:inline-block;
 }
 select {
-    padding: 1%;
     padding-left: 15px;
+    height: 50px;
+    width: 300px;
     border:hidden;
-    border-radius: 20px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 200%;
-    background-color: #52b760;
-}
-input {
-    padding: 1%;
-    width: 20%;
-    padding-left: 15px;
-    border:hidden;
-    border-radius: 20px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 200%;
-    background-color: #52b760;
-   }
-
-button {
-    margin: 25px;
-    border:hidden;
-    border-radius: 100%;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 150%;
-    background: #99e265;
-}
-.remove {
-  background:#FF6666;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.estimate {
-    background: linear-gradient( #FF6644, #FF6666);
-    padding: 15px;
     border-radius: 15px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: rgb(53, 183, 41);
 }
-.add {
-    background: #3da24b;
-    vertical-align: middle;
+/*input boxes*/
+.marksContainer{
+    /*border-style: dashed;   
+    border-color: magenta;*/
+    display: inline-block;  
 }
-.ATAR {
+#rawMark, #hscMark, #scaledMark, #unitsMark {
+    margin-left: 55px;
     display: inline-block;
-    padding:1%;
-}
-.ATAR h1 {
     color: black;
-    font-size: 300%;
+    background: rgba(53, 183, 41, 1);
+    border: hidden;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
 }
-.ATAR #estimated {
-       border-style: solid;
-    border-color: #52b760;    
-    border-radius: 50px;
+/*BUTTON*/
+.btnWrapper{
+    text-align: center;
 }
-
-.ad {
-    border-style: solid;
-    border-color: #52b760;
-    color: darkslategrey;
-    border-radius: 50px;
-    margin: 5%;
+.btn_atar, .addSubject {
+    display: inline-block;
+    height: 60px; 
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    background: #52b760;
+    color: white;
+    border: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
 }
-.information {
-    margin:auto;
-    color: #ecf0f1;
-}
-.title {
-    display:block;
-    font-size: 200%;
+.addSubject {
+border-radius: 100%;
+ height: 60px; 
+ width: 60px;
+color: #52b760;
+border-color: #52b760;
+border-style: solid;
+background: white;
 }
 
 /*FOOTER*/
 footer{
-    height: 100%;   ;
-    padding: 20px;
-    background: linear-gradient( 42deg,white, whitesmoke);
-    color:  #95a5a6;
-    vertical-align: middle;
+    background: rgb(250,250,250);
+    color: grey;
     text-align: center;
 }
